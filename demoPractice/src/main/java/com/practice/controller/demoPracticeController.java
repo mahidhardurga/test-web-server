@@ -29,4 +29,11 @@ public class demoPracticeController {
 		model.addAttribute("Sucess", "student created sucessfully");
 		return "home";
 	}
+	
+	@RequestMapping("/shoes")
+	public String shoes() {
+		return "home";
+	}
+	
+	
 }
