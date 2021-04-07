@@ -33,10 +33,13 @@
 
 		
 		
-		<dependency>
-   			 <groupId>org.apache.tomcat</groupId>
-    			<artifactId>tomcat-jasper</artifactId>
-		</dependency>
+		
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-jasper</artifactId>
+    <version>8.0.1</version>
+</dependency>
+
 
 
 
