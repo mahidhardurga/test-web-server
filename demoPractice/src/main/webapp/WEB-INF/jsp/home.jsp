@@ -27,7 +27,7 @@
 			<td>${student.city}</td>
 		</table>
 		
-		<h3>${Sucess}</h3>
+		<h3>${sucess}</h3>
 	</c:if>
 
 </body>
