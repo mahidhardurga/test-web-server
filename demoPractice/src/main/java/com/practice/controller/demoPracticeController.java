@@ -14,6 +14,11 @@ import com.practice.repository.repository;
 public class demoPracticeController {
 	@Autowired
 	private repository repo;
+
+        @RequestMapping("/")
+	public String home(@ModelAttribute("student") student student) {
+		return "home";
+	}
 	
 	@RequestMapping("/Home")
 	public String home(@ModelAttribute("student") student student) {
