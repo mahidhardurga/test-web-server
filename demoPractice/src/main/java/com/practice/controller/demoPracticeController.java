@@ -8,9 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.practice.model.student;
 import com.practice.repository.repository;
+import org.springframework.web.bind.annotation.RestController;
 
 
-@Controller
+@RestController
 public class demoPracticeController {
 	@Autowired
 	private repository repo;
